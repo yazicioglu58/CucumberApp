@@ -9,12 +9,13 @@ import utilities.Driver;
 public class AmazonPage {
     WebDriver driver;
 
-    public AmazonPage(){
-
-        driver = Driver.getDriver();
-        PageFactory.initElements(driver, this);
-
-    }
+//    public HomePage(){
+//
+//        driver = Driver.getDriver();
+//        PageFactory.initElements(driver, this);
+//
+//    }
+// Updating locators
 
     @FindBy(id = "twotabsearchtextbox")
     public WebElement amazonSearchBox;
